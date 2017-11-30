@@ -8,3 +8,4 @@ openssl req -x509 -nodes -newkey rsa:2048 -keyout server.key -out server.crt -no
 cp server.key /etc/pki/tls/private/ca.key
 cp server.crt /etc/pki/tls/certs/ca.crt
 ls /etc/pki/tls/certs
+ls /etc/pki/tls/private
